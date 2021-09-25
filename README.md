@@ -1,2 +1,2 @@
 # lightcolorpicker_server
-Dies hier ist der Serverseitige Code vom lightcolorpicker5 Projekt.
+Dies hier ist der serverseitige Source-Code vom lightcolorpicker5 Projekt.
