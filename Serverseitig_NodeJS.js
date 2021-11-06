@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 	res.send(":D")
 });
 
-app.get('/licht/', (req, res) => {
+app.get('-----', (req, res) => {
 	res.send('');
 	console.log(req.query);
 	var dgram = require('dgram');
@@ -15,7 +15,7 @@ app.get('/licht/', (req, res) => {
 	s.send(Buffer.from("modus="+ req.query.modus +"&color="+ req.query.color), 2390, req.query.ip);
 });
 
-app.get('/licht/all/', (req, res) => {
+app.get('------', (req, res) => {
 	res.send("")
 	var dgram = require('dgram');
 	var s = dgram.createSocket('udp4');
